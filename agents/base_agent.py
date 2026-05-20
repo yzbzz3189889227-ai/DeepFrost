@@ -9,7 +9,7 @@ import json
 class BaseToolCallingAgent:
     """基于 OpenAI Function Calling 的智能体基类（兼容 DeepSeek）"""
 
-    def __init__(self, name: str, role: str, tools: List, max_iterations: int = 15, verbose: bool = True):
+    def __init__(self, name: str, role: str, tools: List, max_iterations: int = 12, verbose: bool = True):
         self.name = name
         self.role = role
         self.tools = tools
