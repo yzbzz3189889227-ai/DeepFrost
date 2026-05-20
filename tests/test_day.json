@@ -1,0 +1,22 @@
+{
+  "scenario": "day",
+  "outside_temp": 32.5,
+  "electricity_price": 0.85,
+  "cold_rooms": [
+    {"id": 0, "initial_temp": -17.2, "t_min": -20, "t_max": -15, "activity": "high"},
+    {"id": 1, "initial_temp": -16.8, "t_min": -20, "t_max": -15, "activity": "high"},
+    {"id": 2, "initial_temp": -17.5, "t_min": -20, "t_max": -15, "activity": "high"},
+    {"id": 3, "initial_temp": -17.0, "t_min": -20, "t_max": -15, "activity": "high"},
+    {"id": 4, "initial_temp": -17.8, "t_min": -20, "t_max": -15, "activity": "high"}
+  ],
+  "compressors": [
+    {"id": 0, "total_hours": 342},
+    {"id": 1, "total_hours": 356},
+    {"id": 2, "total_hours": 320},
+    {"id": 3, "total_hours": 335},
+    {"id": 4, "total_hours": 348},
+    {"id": 5, "total_hours": 360},
+    {"id": 6, "total_hours": 330},
+    {"id": 7, "total_hours": 328}
+  ]
+}
